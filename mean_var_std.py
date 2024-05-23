@@ -10,34 +10,34 @@ def calculate(input_list):
     # Calculate the required statistics
     calculations = {
         'mean': [
-            matrix.mean(axis=0).tolist(),   # mean of columns
-            matrix.mean(axis=1).tolist(),   # mean of rows
-            matrix.mean().tolist()          # mean of the flattened matrix
+            matrix.mean(axis=0).tolist(),  
+            matrix.mean(axis=1).tolist(),  
+            matrix.mean().tolist()          
         ],
         'variance': [
-            matrix.var(axis=0).tolist(),    # variance of columns
-            matrix.var(axis=1).tolist(),    # variance of rows
-            matrix.var().tolist()           # variance of the flattened matrix
+            matrix.var(axis=0).tolist(),    
+            matrix.var(axis=1).tolist(),   
+            matrix.var().tolist()          
         ],
         'standard deviation': [
-            matrix.std(axis=0).tolist(),    # standard deviation of columns
-            matrix.std(axis=1).tolist(),    # standard deviation of rows
-            matrix.std().tolist()           # standard deviation of the flattened matrix
+            matrix.std(axis=0).tolist(),    
+            matrix.std(axis=1).tolist(),  
+            matrix.std().tolist()          
         ],
         'max': [
-            matrix.max(axis=0).tolist(),    # max of columns
-            matrix.max(axis=1).tolist(),    # max of rows
-            matrix.max().tolist()           # max of the flattened matrix
+            matrix.max(axis=0).tolist(),    
+            matrix.max(axis=1).tolist(),    
+            matrix.max().tolist()          
         ],
         'min': [
-            matrix.min(axis=0).tolist(),    # min of columns
-            matrix.min(axis=1).tolist(),    # min of rows
-            matrix.min().tolist()           # min of the flattened matrix
+            matrix.min(axis=0).tolist(),   
+            matrix.min(axis=1).tolist(),   
+            matrix.min().tolist()          
         ],
         'sum': [
-            matrix.sum(axis=0).tolist(),    # sum of columns
-            matrix.sum(axis=1).tolist(),    # sum of rows
-            matrix.sum().tolist()           # sum of the flattened matrix
+            matrix.sum(axis=0).tolist(),    
+            matrix.sum(axis=1).tolist(),  
+            matrix.sum().tolist()          
         ]
     }
     
